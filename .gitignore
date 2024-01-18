@@ -1,0 +1,69 @@
+# 字节编译、优化或 DLL 文件
+__pycache__/
+*.py[cod]
+*$py.class
+
+# C 扩展文件
+*.so
+
+# 打包和分发相关文件
+.Python
+build/
+develop-eggs/
+dist/
+downloads/
+eggs/
+.eggs/
+lib/
+lib64/
+parts/
+sdist/
+var/
+wheels/
+pip-wheel-metadata/
+share/python-wheels/
+*.egg-info/
+.installed.cfg
+*.egg
+MANIFEST
+
+# PyInstaller 相关文件
+*.manifest
+*.spec
+
+# 安装程序日志
+pip-log.txt
+pip-delete-this-directory.txt
+
+# 单元测试和覆盖率报告
+htmlcov/
+.tox/
+.nox/
+.coverage
+.coverage.*
+.cache
+nosetests.xml
+coverage.xml
+*.cover
+*.py,cover
+.hypothesis/
+.pytest_cache/
+
+# JetBrains IDEs
+.idea/
+*.iml
+
+# 虚拟环境
+venv/
+env/
+.pyenv/
+.python-version
+
+# 操作系统生成的文件
+.DS_Store
+Thumbs.db
+
+# 日志和临时文件
+*.log
+*.tmp
+*.temp
